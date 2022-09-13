@@ -12,21 +12,20 @@
     </organization>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/karutaproject/karuta-backend_legacy.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/karutaproject/karuta-backend_legacy.git</developerConnection>
-        <url>https://github.com/karutaproject/karuta-backend_legacy.git</url>
+        <connection>scm:git:ssh://git@github.com/GIP-RECIA/karuta-backend.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/GIP-RECIA/karuta-backend.git</developerConnection>
+        <url>https://github.com/GIP-RECIA/karuta-backend.git</url>
         <tag>HEAD</tag>
     </scm>
-
     <distributionManagement>
-      <snapshotRepository>
-        <id>ossrh</id>
-        <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-      </snapshotRepository>
-      <repository>
-        <id>ossrh</id>
-        <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-      </repository>
+        <repository>
+            <id>esco-releases</id>
+            <url>https://nexus.recia.fr/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>esco-snapshots</id>
+            <url>https://nexus.recia.fr/content/repositories/snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <licenses>
